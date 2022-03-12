@@ -13,3 +13,9 @@ import { LandingComponent } from './landing.component';
 //Routes or Pathing
 
 const routes: Routes = [{ path: '', component: LandingComponent }];
+
+@NgModule({
+  declarations: [LandingComponent],
+  imports: [CommonModule, BrowserModule, RouterModule.forChild(routes)],
+})
+export class LandingModule {}
