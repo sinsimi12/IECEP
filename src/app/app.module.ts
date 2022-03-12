@@ -1,7 +1,11 @@
+//Module
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
+
+//Components
+
 import { AppComponent } from './app.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { ContactComponent } from './components/contact/contact.component';
