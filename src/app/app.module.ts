@@ -16,7 +16,7 @@ import { AboutComponent } from './components/about/about.component';
     AppComponent,
     LandingComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
