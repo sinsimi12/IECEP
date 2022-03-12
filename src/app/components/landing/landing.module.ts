@@ -11,3 +11,5 @@ import { LandingComponent } from './landing.component';
 //import { AboutComponent } from './components/about/about.component';
 
 //Routes or Pathing
+
+const routes: Routes = [{ path: '', component: LandingComponent }];
