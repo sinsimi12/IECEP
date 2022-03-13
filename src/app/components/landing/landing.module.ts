@@ -7,8 +7,6 @@ import { BrowserModule } from '@angular/platform-browser';
 //Components
 
 import { LandingComponent } from './landing.component';
-//import { ContactComponent } from './components/contact/contact.component';
-//import { AboutComponent } from './components/about/about.component';
 
 //Routes 
 
