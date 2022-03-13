@@ -11,3 +11,11 @@ import { AboutComponent } from './about.component';
 //Routes or Pathing
 
 const routes: Routes = [{ path: '', component: AboutComponent }];
+
+//Ng Module
+
+@NgModule({
+  declarations: [AboutComponent],
+  imports: [CommonModule, BrowserModule, RouterModule.forChild(routes)],
+})
+export class AboutModule {}
