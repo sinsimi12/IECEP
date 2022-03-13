@@ -17,3 +17,5 @@ const routes: Routes = [{ path: '', component: ContactComponent }];
 @NgModule({
   declarations: [ContactComponent],
   imports: [CommonModule, BrowserModule, RouterModule.forChild(routes)],
+})
+export class ContactModule {}
