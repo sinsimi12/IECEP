@@ -8,3 +8,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AboutComponent } from './about.component';
 
+//Routes or Pathing
+
+const routes: Routes = [{ path: '', component: AboutComponent }];
