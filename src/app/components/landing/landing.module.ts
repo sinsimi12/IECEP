@@ -10,7 +10,7 @@ import { LandingComponent } from './landing.component';
 //import { ContactComponent } from './components/contact/contact.component';
 //import { AboutComponent } from './components/about/about.component';
 
-//Routes or Pathing
+//Routes 
 
 const routes: Routes = [{ path: '', component: LandingComponent }];
 
