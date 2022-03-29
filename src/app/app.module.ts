@@ -2,23 +2,21 @@
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { HeaderModule } from './components/header/header.module';
 import { AppRoutingModule } from './app-routing.module';
 
 //Components
 
 import { AppComponent } from './app.component';
-import { LandingComponent } from './components/landing/landing.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent,
-    ContactComponent,
-    AboutComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule,
+    HttpClientModule, HeaderModule
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
