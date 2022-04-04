@@ -9,6 +9,12 @@ const routes: Routes = [
         (m) => m.LandingModule
       ),
   },
+  {
+    path: '',
+    loadChildren: () =>
+      import('./components/about/about.module').then(
+        (m) => m.AboutModule),
+  },
 ];
 
 @NgModule({
