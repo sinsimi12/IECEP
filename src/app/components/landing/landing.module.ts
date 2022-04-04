@@ -8,12 +8,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { LandingComponent } from './landing.component';
 
-//Routes 
+//Routes
 
 const routes: Routes = [{ path: '', component: LandingComponent }];
 
 @NgModule({
   declarations: [LandingComponent],
-  imports: [CommonModule, BrowserModule, RouterModule.forChild(routes)],
+  imports: [CommonModule, RouterModule.forChild(routes)],
+  exports: [LandingComponent],
 })
 export class LandingModule {}

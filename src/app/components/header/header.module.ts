@@ -6,18 +6,13 @@ import { RouterModule } from '@angular/router';
 const routes = [
   {
     path: '',
-    component: HeaderComponent
-  }
-]
-
-
+    component: HeaderComponent,
+  },
+];
 
 @NgModule({
-  declarations: [
-    HeaderComponent
-  ],
-  imports: [
-    CommonModule, RouterModule.forChild(routes)
-  ]
+  declarations: [HeaderComponent],
+  imports: [CommonModule, RouterModule.forChild(routes)],
+  exports: [HeaderComponent],
 })
-export class HeaderModule { }
+export class HeaderModule {}
