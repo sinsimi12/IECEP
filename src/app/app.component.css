@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap");
+:host {
+  --c-purple: #25287b;
+  --c-blue-dark: #05152e;
+  --c-blue-light: #012c56;
+  --c-accent: #0bb8de;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:host .font-2 {
+  font-family: "Manrope", sans-serif;
+}
