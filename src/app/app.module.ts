@@ -1,5 +1,6 @@
 //Module
-
+import { AboutModule } from './components/about/about.module';
+import { LandingModule } from './components/landing/landing.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
