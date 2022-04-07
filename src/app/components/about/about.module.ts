@@ -17,5 +17,6 @@ const routes: Routes = [{ path: '', component: AboutComponent }];
 @NgModule({
   declarations: [AboutComponent],
   imports: [CommonModule, BrowserModule, RouterModule.forChild(routes)],
+  exports: [AboutComponent],
 })
 export class AboutModule {}
