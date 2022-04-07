@@ -5,6 +5,11 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () =>
+      import('./components/header/header.module').then((m) => m.HeaderModule),
+  },
+  {
+    path: '',
+    loadChildren: () =>
       import('./components/landing/landing.module').then(
         (m) => m.LandingModule
       ),
@@ -12,8 +17,7 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () =>
-      import('./components/about/about.module').then(
-        (m) => m.AboutModule),
+      import('./components/about/about.module').then((m) => m.AboutModule),
   },
 ];
 
