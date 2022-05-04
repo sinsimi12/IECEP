@@ -14,7 +14,7 @@ const routes: Routes = [{ path: '', component: LandingComponent }];
 
 @NgModule({
   declarations: [LandingComponent],
-  imports: [CommonModule, RouterModule.forChild(routes)],
+  imports: [CommonModule, RouterModule.forChild(routes), BrowserModule],
   exports: [LandingComponent],
 })
 export class LandingModule {}
