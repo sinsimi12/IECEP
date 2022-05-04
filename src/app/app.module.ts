@@ -22,6 +22,8 @@ import { AppComponent } from './app.component';
     LandingModule,
     HeaderModule,
     AboutModule,
+    LogInModule,
+    RegisterModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
