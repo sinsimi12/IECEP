@@ -1,4 +1,6 @@
 //Module
+import { LogInModule } from './components/login/login.module';
+import { RegisterModule } from './components/register/register.module';
 import { AboutModule } from './components/about/about.module';
 import { LandingModule } from './components/landing/landing.module';
 import { NgModule } from '@angular/core';
@@ -20,6 +22,8 @@ import { AppComponent } from './app.component';
     LandingModule,
     HeaderModule,
     AboutModule,
+    LogInModule,
+    RegisterModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

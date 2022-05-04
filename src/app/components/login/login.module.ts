@@ -5,15 +5,15 @@ import { Routes, RouterModule } from '@angular/router';
 
 //Components
 
-import { LandingComponent } from './landing.component';
+import { LoginComponent } from './login.component';
 
 //Routes
 
-const routes: Routes = [{ path: '', component: LandingComponent }];
+const routes: Routes = [{ path: '', component: LoginComponent }];
 
 @NgModule({
-  declarations: [LandingComponent],
+  declarations: [LoginComponent],
   imports: [CommonModule, RouterModule.forChild(routes)],
-  exports: [LandingComponent],
+  exports: [LoginComponent],
 })
-export class LandingModule {}
+export class LogInModule {}
